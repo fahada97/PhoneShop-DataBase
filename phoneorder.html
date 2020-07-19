@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phone order</title>
+</head>
+<body>
+<h3>Phone Order</h3>
+
+<form id="subForm" action="phoneorder.php" method="post">
+	<table>
+	
+		<tr>
+			<td> User Id: <td>
+			<td> <input type = "int" name ="userid"> </td>
+		</tr>
+		<tr>
+				<td><label for=phoneid class=label>Phone:</label><td>
+				<td><select id="phoneid" name="phoneid">
+					<option value="" selected="selected">Select a Phone</option>
+					<option value="1000">iPhone 8, 4.7", 64GB, $449</option>
+					<option value="1001">iPhone 8 Plus, 5.5", 64GB, $549</option>
+					<option value="1002">iPhone XR, 6.1", 64GB, $599</option>
+					<option value="1003">iPhone XR, 6.1", 128GB, $649</option>
+					<option value="1004">iPhone 11, 5.8", 64GB, $699</option>
+					<option value="1005">iPhone 11, 5.8", 128GB, $749</option>
+					<option value="1006">iPhone 11, 5.8", 256GB, $849</option>
+					<option value="1007">Google Pixel 4, 5.7", 64GB, $799</option>
+					<option value="1008">Google Pixel 4 XL, 6.3", 64GB, $899</option>
+					<option value="1009">Google Pixel 3a, 5.6", 64GB, $449</option>
+					<option value="1010">Google Pixel 3a XL, 6.0", 64GB, $529</option>	
+				</select><td>
+		</tr>
+
+	</table>
+<input id="button" type="submit" value="Place Order" />
+</form>
+
+</body>
+</html>
